@@ -1,0 +1,14 @@
+[features]
+seeds = false
+[programs.devnet]
+pez = "5oVf3ZxZ4JSZ1BhSpXERNssnFYXx49cTTKkbEz6C1Fu5"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/Users/drkrueger/.config/solana/programs/pez.json"
+
+[scripts]
+test = "ts-node tests/tests.ts"
